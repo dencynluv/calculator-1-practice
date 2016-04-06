@@ -1,23 +1,47 @@
 def add(num1, num2):
-    
+    """add two inputs"""
+
+    return num1 + num2
+
 
 def subtract(num1, num2):
-    pass
+    """subtract two inputs"""
+
+    return num1 - num2
+
 
 def multiply(num1, num2):
-    pass
+    """multiply two inputs"""
+
+    return num1 * num2
+
 
 def divide(num1, num2):
-    pass
+    """divide the first input by the second input; returns a float"""
+
+    return float(num1) / num2
+
 
 def square(num1):
-    pass
+    """Return the square of the input"""
+    
+    return num1**2
+
 
 def cube(num1):
-    pass
+    """Return the cube of the input"""
+    
+    return num1**3
+
 
 def power(num1, num2):
-    pass
+    """Raises the first input by the second input"""
+
+    return num1 ** num2
+
 
 def mod(num1, num2):
-    pass
+    """Returns the remainder when the first input 
+    is divided by the second input""" 
+    
+    return num1 % num2
