@@ -1,17 +1,17 @@
 def add(num1, num2):
-    """add two inputs"""
+    """return the sum of two input integers"""
 
     return num1 + num2
 
 
 def subtract(num1, num2):
-    """subtract two inputs"""
+    """return the second input subtracted from the first input"""
 
     return num1 - num2
 
 
 def multiply(num1, num2):
-    """multiply two inputs"""
+    """multiply two inputs together"""
 
     return num1 * num2
 
@@ -19,7 +19,7 @@ def multiply(num1, num2):
 def divide(num1, num2):
     """divide the first input by the second input; returns a float"""
 
-    return float(num1) / num2
+    return float(num1) / float(num2)
 
 
 def square(num1):
